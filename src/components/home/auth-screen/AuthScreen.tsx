@@ -2,7 +2,10 @@ import React from 'react'
 
 const AuthScreen = () => {
   return (
-    <div>AuthScreen</div>
+    <div className="text-primary">AuthScreen
+      
+    </div>
+
   )
 }
 
