@@ -5,7 +5,7 @@ import AuthScreen from "@/components/home/auth-screen/AuthScreen";
 export default function Home() {
   const user = false;
   return (
-   <main className="mx-auto px-4 max-w-7xl">
+   <main>
       {user ? <HomeScreen /> : <AuthScreen />}
    </main>
   );
